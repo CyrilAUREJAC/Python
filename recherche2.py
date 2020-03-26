@@ -49,23 +49,8 @@ while jeu:
 	#affiche le tableau et on indique sa position dans l'ordre de tirage (comme si c'etait un loto)
 	for i, elt in enumerate(tab_jeu):
 		print("Le chiffre tiré en {} est le {}".format(i,elt))
-
-	#Si le numéro recherché s'y trouve, c'est gagné
-	if win:
-		print ("Gagné !")
-
-	else:
-		print("Perdu")
-
-	del tab_jeu
-
-	#On quitte ?
-	rep=input("Souhaitez vous quitter ? ")
-	rep=rep.lower()
-	if(rep=="q"):
-		jeu=False
-	else:
-		jeu=True
+#EESugdhvi;kusbvksdjbvdskvbsdvjsdv
+#TEST
 
 
 
